@@ -23,10 +23,7 @@ router.get('/:id', (req, res) => {
     where: {
       id: req.params.id,
     },
-    include: {
-      model: Product,
-
-    }
+    include: [Product],
   }).then((category) => {
     res.json(category)
   .catch((err) => {
