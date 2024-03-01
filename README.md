@@ -6,6 +6,8 @@ This is the back end for an e-commerce site. It uses Sequelize to interact with 
 
 ## Table of Contents
 
+* [Video Link](#video-link)
+
 * [Installation](#installation)
 
 * [Usage](#usage)
@@ -17,6 +19,10 @@ This is the back end for an e-commerce site. It uses Sequelize to interact with 
 * [Tests](#tests)
 
 * [Questions](#questions)
+
+## Video Link
+
+
 
 ## Installation
 
