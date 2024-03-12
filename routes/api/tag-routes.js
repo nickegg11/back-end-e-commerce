@@ -9,14 +9,8 @@ router.get('/', (req, res) => {
      { model: Product, through: ProductTag },
     ],
   })
-  .then((tags) => {
-    res.status(200).json({
-      tags,
-    })
-  .catch((err) => {
-    res.status(500).json({ err });
-  });
-  });
+ .then((tags) => res.status(200).json(tags))
+ .catch((err) => res.status(500).json(err));
   // find all tags
   // be sure to include its associated Product data
 });
