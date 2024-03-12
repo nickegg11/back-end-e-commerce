@@ -22,7 +22,7 @@ This is the back end for an e-commerce site. It uses Sequelize to interact with 
 
 ## Video Link
 
-
+[Video Link](https://drive.google.com/file/d/1nZrdQ__99Z-vks0OftbMqouIrh4iXR42/view)
 
 ## Installation
 
